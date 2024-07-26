@@ -34,9 +34,9 @@
                   <@crafter.h3 $field="features.title_t" $index=index>
                     ${item.title_t!""}
                   </@crafter.h3>
-                  <@crafter.p $field="features.description_t" $index=index>
+                  <@crafter.div $field="features.description_t" $index=index>
                     ${item.description_t!""}
-                  </@crafter.p>
+                  </@crafter.div>
                 </div>
               </div>
             </@crafter.renderRepeatGroup>

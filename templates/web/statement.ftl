@@ -7,9 +7,9 @@
       <div class="main_dialogue text-center">
         <!-- Edit Text -->
         <div class="col-md-12">
-          <@crafter.h3 $field="rteText_html">
+          <@crafter.div $field="rteText_html">
             ${contentModel.rteText_html}
-          </@crafter.h3>
+          </@crafter.div>
         </div>
       </div>
     </div>
